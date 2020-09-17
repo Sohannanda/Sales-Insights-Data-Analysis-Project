@@ -27,3 +27,6 @@ Data Analysis Using SQL
 # Data-Analysis-Using-PowerBI
 Formula to create normal_sales_amount column
 = Table.AddColumn(#"Filtered Rows", "normal_sales_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
+
+
+![Alt text](https://github.com/Sohannanda/Sales-Insights-Data-Analysis-Project/blob/master/sales%20insight.PNG)
